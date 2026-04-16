@@ -2,7 +2,7 @@
 .\objects\fonts.o: .\User\./font/fonts.h
 .\objects\fonts.o: .\Start\stm32f4xx.h
 .\objects\fonts.o: .\Start\core_cm4.h
-.\objects\fonts.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\fonts.o: D:\bianchengruanjian\keil\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\fonts.o: .\Start\core_cmInstr.h
 .\objects\fonts.o: .\Start\core_cmFunc.h
 .\objects\fonts.o: .\Start\core_cmSimd.h

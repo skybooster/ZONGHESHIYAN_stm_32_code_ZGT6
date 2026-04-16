@@ -2,7 +2,7 @@
 .\objects\bsp_xpt2046_lcd.o: .\User\./lcd/bsp_xpt2046_lcd.h
 .\objects\bsp_xpt2046_lcd.o: .\Start\stm32f4xx.h
 .\objects\bsp_xpt2046_lcd.o: .\Start\core_cm4.h
-.\objects\bsp_xpt2046_lcd.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bsp_xpt2046_lcd.o: D:\bianchengruanjian\keil\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\bsp_xpt2046_lcd.o: .\Start\core_cmInstr.h
 .\objects\bsp_xpt2046_lcd.o: .\Start\core_cmFunc.h
 .\objects\bsp_xpt2046_lcd.o: .\Start\core_cmSimd.h
@@ -38,5 +38,5 @@
 .\objects\bsp_xpt2046_lcd.o: .\User\./lcd/bsp_ili9341_lcd.h
 .\objects\bsp_xpt2046_lcd.o: .\User\./font/fonts.h
 .\objects\bsp_xpt2046_lcd.o: .\User\./font/fonts.h
-.\objects\bsp_xpt2046_lcd.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\bsp_xpt2046_lcd.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\bsp_xpt2046_lcd.o: D:\bianchengruanjian\keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\bsp_xpt2046_lcd.o: D:\bianchengruanjian\keil\ARM\ARMCC\Bin\..\include\string.h

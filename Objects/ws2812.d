@@ -2,7 +2,7 @@
 .\objects\ws2812.o: User\deng\ws2812.h
 .\objects\ws2812.o: .\Start\stm32f4xx.h
 .\objects\ws2812.o: .\Start\core_cm4.h
-.\objects\ws2812.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ws2812.o: D:\bianchengruanjian\keil\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\ws2812.o: .\Start\core_cmInstr.h
 .\objects\ws2812.o: .\Start\core_cmFunc.h
 .\objects\ws2812.o: .\Start\core_cmSimd.h

@@ -2,7 +2,7 @@
 .\objects\misc.o: library\misc.h
 .\objects\misc.o: .\Start\stm32f4xx.h
 .\objects\misc.o: .\Start\core_cm4.h
-.\objects\misc.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\misc.o: D:\bianchengruanjian\keil\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\misc.o: .\Start\core_cmInstr.h
 .\objects\misc.o: .\Start\core_cmFunc.h
 .\objects\misc.o: .\Start\core_cmSimd.h

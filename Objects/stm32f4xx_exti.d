@@ -2,7 +2,7 @@
 .\objects\stm32f4xx_exti.o: library\stm32f4xx_exti.h
 .\objects\stm32f4xx_exti.o: .\Start\stm32f4xx.h
 .\objects\stm32f4xx_exti.o: .\Start\core_cm4.h
-.\objects\stm32f4xx_exti.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stm32f4xx_exti.o: D:\bianchengruanjian\keil\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\stm32f4xx_exti.o: .\Start\core_cmInstr.h
 .\objects\stm32f4xx_exti.o: .\Start\core_cmFunc.h
 .\objects\stm32f4xx_exti.o: .\Start\core_cmSimd.h

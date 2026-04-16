@@ -204,6 +204,11 @@ int main ( void )
 	ILI9341_Init ();             //LCD ��ʼ��
 	WS2812_Init();
 
+	/* 初始化触摸控制器 */
+	XPT2046_Init();
+	// 可选：第一次使用时运行屏幕校准
+	// XPT2046_Touch_Calibrate();
+
     /* ====== 示例1：点亮所有 LED 为红色 ====== */
     WS2812_SetAll(COLOR_RED);
     WS2812_Show();
@@ -227,6 +232,26 @@ int main ( void )
 	//ws�ƴ����Դ���
 	while ( 1 )
 	{
+		/* 轮询触摸并显示坐标 */
+		{
+			strType_XPT2046_Coordinate touchPt;
+			char tbuf[32];
+			if ( XPT2046_Get_TouchedPoint( & touchPt, & strXPT2046_TouchPara ) )
+			{
+				/* 在屏幕左上角显示坐标 */
+				sprintf(tbuf, "T:%u,%u", touchPt.x, touchPt.y);
+				ILI9341_Clear(0,0,120,16);
+				ILI9341_DispString_EN(0,0,tbuf);
+				/* 用几个像素标记触摸点 */
+				ILI9341_SetPointPixel(touchPt.x, touchPt.y);
+				ILI9341_SetPointPixel((touchPt.x>0)?touchPt.x-1:0, touchPt.y);
+				ILI9341_SetPointPixel(touchPt.x+1, touchPt.y);
+				ILI9341_SetPointPixel(touchPt.x, (touchPt.y>0)?touchPt.y-1:0);
+				ILI9341_SetPointPixel(touchPt.x, touchPt.y+1);
+				/* 简短去抖 */
+				delay_ms(80);
+			}
+		}
 		LCD_Test();
 		delay_ms(500);
 		for (uint16_t i = 0; i < WS2812_LED_NUM; i++)

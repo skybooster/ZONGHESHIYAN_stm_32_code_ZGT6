@@ -1,7 +1,7 @@
 .\objects\test_main.o: User\test_main.c
 .\objects\test_main.o: .\Start\stm32f4xx.h
 .\objects\test_main.o: .\Start\core_cm4.h
-.\objects\test_main.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\test_main.o: D:\bianchengruanjian\keil\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\test_main.o: .\Start\core_cmInstr.h
 .\objects\test_main.o: .\Start\core_cmFunc.h
 .\objects\test_main.o: .\Start\core_cmSimd.h
@@ -40,7 +40,7 @@
 .\objects\test_main.o: User\./lcd/bsp_xpt2046_lcd.h
 .\objects\test_main.o: User\./led/bsp_led.h
 .\objects\test_main.o: User\./usart/bsp_debug_usart.h
-.\objects\test_main.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\test_main.o: D:\bianchengruanjian\keil\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\test_main.o: User\./deng/ws2812.h
 .\objects\test_main.o: .\System\delay\delay.h
 .\objects\test_main.o: .\System\sys\sys.h

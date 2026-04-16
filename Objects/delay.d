@@ -3,7 +3,7 @@
 .\objects\delay.o: .\System\sys\sys.h
 .\objects\delay.o: .\Start\stm32f4xx.h
 .\objects\delay.o: .\Start\core_cm4.h
-.\objects\delay.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\delay.o: D:\bianchengruanjian\keil\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\delay.o: .\Start\core_cmInstr.h
 .\objects\delay.o: .\Start\core_cmFunc.h
 .\objects\delay.o: .\Start\core_cmSimd.h

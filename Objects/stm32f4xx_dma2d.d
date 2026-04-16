@@ -2,7 +2,7 @@
 .\objects\stm32f4xx_dma2d.o: library\stm32f4xx_dma2d.h
 .\objects\stm32f4xx_dma2d.o: .\Start\stm32f4xx.h
 .\objects\stm32f4xx_dma2d.o: .\Start\core_cm4.h
-.\objects\stm32f4xx_dma2d.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stm32f4xx_dma2d.o: D:\bianchengruanjian\keil\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\stm32f4xx_dma2d.o: .\Start\core_cmInstr.h
 .\objects\stm32f4xx_dma2d.o: .\Start\core_cmFunc.h
 .\objects\stm32f4xx_dma2d.o: .\Start\core_cmSimd.h

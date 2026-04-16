@@ -2,7 +2,7 @@
 .\objects\bsp_debug_usart.o: .\User\./usart/bsp_debug_usart.h
 .\objects\bsp_debug_usart.o: .\Start\stm32f4xx.h
 .\objects\bsp_debug_usart.o: .\Start\core_cm4.h
-.\objects\bsp_debug_usart.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bsp_debug_usart.o: D:\bianchengruanjian\keil\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\bsp_debug_usart.o: .\Start\core_cmInstr.h
 .\objects\bsp_debug_usart.o: .\Start\core_cmFunc.h
 .\objects\bsp_debug_usart.o: .\Start\core_cmSimd.h
@@ -35,4 +35,4 @@
 .\objects\bsp_debug_usart.o: .\library\stm32f4xx_dac.h
 .\objects\bsp_debug_usart.o: .\library\stm32f4xx_dcmi.h
 .\objects\bsp_debug_usart.o: .\library\stm32f4xx_fsmc.h
-.\objects\bsp_debug_usart.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\bsp_debug_usart.o: D:\bianchengruanjian\keil\ARM\ARMCC\Bin\..\include\stdio.h
