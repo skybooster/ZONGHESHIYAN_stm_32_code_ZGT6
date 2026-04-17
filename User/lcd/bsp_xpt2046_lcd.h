@@ -24,19 +24,19 @@
 
 /* 片选 CS */
 #define macXPT2046_SPI_CS_PIN                GPIO_Pin_10
-#define macXPT2046_SPI_CS_PORT               GPIOF
+#define macXPT2046_SPI_CS_PORT               GPIOG
 
 /* 时钟 CLK */
-#define macXPT2046_SPI_CLK_PIN               GPIO_Pin_7
+#define macXPT2046_SPI_CLK_PIN               GPIO_Pin_9
 #define macXPT2046_SPI_CLK_PORT              GPIOG
 
 /* 输出 MOSI */
-#define macXPT2046_SPI_MOSI_PIN              GPIO_Pin_11
-#define macXPT2046_SPI_MOSI_PORT             GPIOF
+#define macXPT2046_SPI_MOSI_PIN              GPIO_Pin_6
+#define macXPT2046_SPI_MOSI_PORT             GPIOD
 
 /* 输入 MISO (已修复原代码中的非法减号和中文字符) */
-#define macXPT2046_SPI_MISO_PIN              GPIO_Pin_6
-#define macXPT2046_SPI_MISO_PORT             GPIOF
+#define macXPT2046_SPI_MISO_PIN              GPIO_Pin_3
+#define macXPT2046_SPI_MISO_PORT             GPIOD
 
 /* 软件模拟 SPI 控制宏 */
 #define macXPT2046_CS_ENABLE()               GPIO_ResetBits(macXPT2046_SPI_CS_PORT, macXPT2046_SPI_CS_PIN)

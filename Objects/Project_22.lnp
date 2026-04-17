@@ -50,6 +50,8 @@
 ".\objects\fonts.o"
 ".\objects\bsp_ili9341_lcd.o"
 ".\objects\bsp_debug_usart.o"
+".\objects\bsp_xpt2046_lcd.o"
+".\objects\bsp_led.o"
 ".\objects\ws2812.o"
 --strict --scatter ".\Objects\Project_22.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols

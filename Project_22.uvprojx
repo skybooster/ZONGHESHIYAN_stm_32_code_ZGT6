@@ -883,14 +883,14 @@
               <FilePath>.\User\lcd\bsp_xpt2046_lcd.c</FilePath>
             </File>
             <File>
-              <FileName>ws2812.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\deng\ws2812.c</FilePath>
-            </File>
-            <File>
               <FileName>bsp_led.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\led\bsp_led.c</FilePath>
+            </File>
+            <File>
+              <FileName>ws2812.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\deng\ws2812.c</FilePath>
             </File>
           </Files>
         </Group>

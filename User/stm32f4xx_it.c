@@ -165,4 +165,35 @@ void PendSV_Handler(void)
   */ 
 
 
+/* Private variables ---------------------------------------------------------*/
+/* 引入在 bsp_xpt2046_lcd.c 中定义的触摸标志位全局变量 */
+extern volatile uint8_t ucXPT2046_TouchFlag;
+
+// ... (保持原有的异常处理函数不变，如 NMI_Handler, HardFault_Handler 等) ...
+
+/******************************************************************************/
+/* STM32F4xx Peripherals Interrupt Handlers                   */
+/* Add here the Interrupt Handler for the used peripheral(s) (PPP), for the  */
+/* available peripheral interrupt handler's name please refer to the startup */
+/* file (startup_stm32f4xx.s).                                               */
+/******************************************************************************/
+
+/**
+  * @brief  This function handles EXTI Line[9:5] interrupts.
+  * @param  None
+  * @retval None
+  */
+void EXTI9_5_IRQHandler(void)
+{
+  /* 判断是否为引脚 9 (XPT2046 触摸中断引脚) 产生的中断 */
+  if(EXTI_GetITStatus(EXTI_Line9) != RESET)
+  {
+    /* 将触摸标志位置 1，通知主循环进行坐标读取 */
+    ucXPT2046_TouchFlag = 1;
+    
+    /* 清除 EXTI_Line9 的中断挂起标志位，防止不断进入中断 */
+    EXTI_ClearITPendingBit(EXTI_Line9);
+  }
+}
+
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
